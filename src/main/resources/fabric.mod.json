@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "majmods",
+	"version": "${version}",
+	"name": "Mc Ace Jr Mods",
+	"description": "A random mod made by Mc Ace Jr. Adding what ever I wanted to add.",
+	"authors": [
+		"Mc Ace Jr"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/majmods/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"mcacejr.majmods.McAceJrMods"
+		],
+		"client": [
+			"mcacejr.majmods.McAceJrModsClient"
+		],
+		"fabric-datagen": [
+			"mcacejr.majmods.McAceJrModsDataGenerator"
+		]
+	},
+	"mixins": [
+		"majmods.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.14",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
