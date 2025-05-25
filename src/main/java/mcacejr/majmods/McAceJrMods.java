@@ -1,5 +1,8 @@
 package mcacejr.majmods;
 
+import mcacejr.majmods.block.ModBlocks;
+import mcacejr.majmods.item.ModItemGroups;
+import mcacejr.majmods.item.ModItems;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -11,6 +14,12 @@ public class McAceJrMods implements ModInitializer {
 
 	@Override
 	public void onInitialize() {
+
+		ModItemGroups.registerItemGroups();
+
+
+		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 
 	}
 }

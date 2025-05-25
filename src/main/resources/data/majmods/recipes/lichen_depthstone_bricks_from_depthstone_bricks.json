@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "building",
+  "ingredients": [
+    {
+      "item": "majmods:depthstone_bricks"
+    },
+    {
+      "item": "minecraft:glow_lichen"
+    }
+  ],
+  "result": {
+    "item": "majmods:lichen_depthstone_bricks",
+    "count": 1
+  }
+}
