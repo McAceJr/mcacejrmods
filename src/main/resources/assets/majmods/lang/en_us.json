@@ -4,8 +4,16 @@
 
   "block.majmods.depthstone": "Depthstone",
   "block.majmods.depthstone_bricks": "Depthstone Bricks",
+  "block.majmods.depthstone_brick_stairs": "Depthstone Brick Stairs",
+  "block.majmods.depthstone_brick_slab": "Depthstone Brick Slab",
+  "block.majmods.depthstone_brick_wall": "Depthstone Brick Wall",
   "block.majmods.chiseled_depthstone_bricks": "Chiseled Depthstone Bricks",
   "block.majmods.lichen_depthstone_bricks": "Lichen Depthstone Bricks",
+  "block.majmods.lichen_depthstone_brick_stairs": "Lichen Depthstone Brick Stairs",
+  "block.majmods.lichen_depthstone_brick_slab": "Lichen Depthstone Brick Slab",
+  "block.majmods.lichen_depthstone_brick_wall": "Lichen Depthstone Brick Wall",
+  "block.majmods.depthstone_lichen_lantern": "Depthstone Lichen Lantern",
+  "block.majmods.depthstone_lantern": "Depthstone Lantern",
 
   "itemgroup.mcacejr_tab": "McAceJr's Items"
 }

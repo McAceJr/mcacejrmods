@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "majmods:depthstone",
+    "majmods:depthstone_bricks",
+    "majmods:chiseled_depthstone_bricks",
+    "majmods:lichen_depthstone_bricks"
+  ]
+}

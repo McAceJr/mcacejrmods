@@ -20,8 +20,16 @@ public class ModItemGroups {
                     entries.add(ModItems.HOLLY_BERRY);
                     entries.add(ModBlocks.DEPTHSTONE);
                     entries.add(ModBlocks.DEPTHSTONE_BRICKS);
+                    entries.add(ModBlocks.DEPTHSTONE_BRICK_STAIRS);
+                    entries.add(ModBlocks.DEPTHSTONE_BRICK_SLAB);
+                    entries.add(ModBlocks.DEPTHSTONE_BRICK_WALL);
                     entries.add(ModBlocks.CHISELED_DEPTHSTONE_BRICKS);
                     entries.add(ModBlocks.LICHEN_DEPTHSTONE_BRICKS);
+                    entries.add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_STAIRS);
+                    entries.add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_SLAB);
+                    entries.add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_WALL);
+                    entries.add(ModBlocks.DEPTHSTONE_LICHEN_LANTERN);
+                    entries.add(ModBlocks.DEPTHSTONE_LANTERN);
                     }).build());
 
     public static void registerItemGroups(){
