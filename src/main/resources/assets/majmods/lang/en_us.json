@@ -2,6 +2,28 @@
   "item.majmods.flint_alloy": "Flint Alloy",
   "item.majmods.holly_berry": "Holly Berry",
 
+  "item.majmods.stone_catalyst": "Stone Catalyst",
+  "item.majmods.deepslate_catalyst": "Deepslate Catalyst",
+  "item.majmods.netherrack_catalyst": "Netherrack Catalyst",
+  "item.majmods.wooden_trimmings": "Wooden Trimmings",
+  "item.majmods.tree_feast": "Tree Feast",
+  "item.majmods.leafy_bushel": "Leafy Bushel",
+  "item.majmods.tree_forged_alloy": "Tree Forged Alloy",
+  "item.majmods.mob_effigy": "Mob Effigy",
+  "item.majmods.monster_soulstone": "Monster Soulstone",
+  "item.majmods.monstrous_totem": "Monstrous Totem",
+  "item.majmods.restored_sherd_tablet": "Restored Sherd Tablet",
+  "block.majmods.ore_cluster": "Ore Cluster",
+
+  "item.majmods.legendary_repair_smithing_template": "Smithing Template",
+  "item.majmods.legendary_upgrade_smithing_template": "Smithing Template",
+
+  "item.majmods.ore_cluster_pickaxe": "Ore Cluster Pickaxe",
+  "item.majmods.twisted_root_axe": "Twisted Root Axe",
+  "item.majmods.ancient_sherd_shovel": "Ancient Sherd Shovel",
+  "item.majmods.extravagant_gilded_hoe": "Extravagant Gilded Hoe",
+  "item.majmods.living_mob_sword": "Living Monster Sword",
+
   "block.majmods.depthstone": "Depthstone",
   "block.majmods.depthstone_bricks": "Depthstone Bricks",
   "block.majmods.depthstone_brick_stairs": "Depthstone Brick Stairs",

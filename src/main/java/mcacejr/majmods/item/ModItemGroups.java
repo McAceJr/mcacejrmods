@@ -30,6 +30,25 @@ public class ModItemGroups {
                     entries.add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_WALL);
                     entries.add(ModBlocks.DEPTHSTONE_LICHEN_LANTERN);
                     entries.add(ModBlocks.DEPTHSTONE_LANTERN);
+                    entries.add(ModItems.STONE_CATALYST);
+                    entries.add(ModItems.DEEPSLATE_CATALYST);
+                    entries.add(ModItems.NETHERRACK_CAYALYST);
+                    entries.add(ModBlocks.ORE_CLUSTER);
+                    entries.add(ModItems.WOODEN_TRIMMINGS);
+                    entries.add(ModItems.TREE_FEAST);
+                    entries.add(ModItems.LEAFY_BUSHEL);
+                    entries.add(ModItems.TREE_FORGED_ALLOY);
+                    entries.add(ModItems.MOB_EFFIGY);
+                    entries.add(ModItems.MONSTER_SOULSTONE);
+                    entries.add(ModItems.MONSTROUS_TOTEM);
+                    entries.add(ModItems.RESTORED_SHERD_TABLET);
+                    entries.add(ModItems.LEGENDARY_REPAIR_SMITHING_TEMPLATE);
+                    entries.add(ModItems.LEGENDARY_UPGRADE_SMITHING_TEMPLATE);
+                    entries.add(ModItems.ORE_CLUSTER_PICKAXE);
+                    entries.add(ModItems.TWISTED_ROOT_AXE);
+                    entries.add(ModItems.ANCIENT_SHERD_SHOVEL);
+                    entries.add(ModItems.EXTRAVAGANT_GILDED_HOE);
+                    entries.add(ModItems.LIVING_MOB_SWORD);
                     }).build());
 
     public static void registerItemGroups(){

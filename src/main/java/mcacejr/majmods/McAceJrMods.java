@@ -3,6 +3,7 @@ package mcacejr.majmods;
 import mcacejr.majmods.block.ModBlocks;
 import mcacejr.majmods.item.ModItemGroups;
 import mcacejr.majmods.item.ModItems;
+import mcacejr.majmods.util.ModLootTableModifiers;
 import net.fabricmc.api.ModInitializer;
 
 import org.slf4j.Logger;
@@ -20,6 +21,8 @@ public class McAceJrMods implements ModInitializer {
 
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
+
+		ModLootTableModifiers.modifyLootTables();
 
 	}
 }

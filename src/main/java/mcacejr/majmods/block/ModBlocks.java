@@ -37,6 +37,9 @@ public class ModBlocks {
     public static final Block DEPTHSTONE_LANTERN = registerBlock("depthstone_lantern",
             new Block(FabricBlockSettings.copyOf(Blocks.SEA_LANTERN).luminance(12)));
 
+    public static final Block ORE_CLUSTER = registerBlock("ore_cluster",
+            new Block(FabricBlockSettings.copyOf(Blocks.ANCIENT_DEBRIS)));
+
     private static Block registerBlock(String name, Block block) {
         registerBlockItem(name, block);
         return Registry.register(Registries.BLOCK, new Identifier(McAceJrMods.MOD_ID, name), block);

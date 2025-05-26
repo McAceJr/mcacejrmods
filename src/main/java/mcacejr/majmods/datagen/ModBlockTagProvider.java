@@ -44,11 +44,15 @@ public class ModBlockTagProvider extends FabricTagProvider.BlockTagProvider {
                 .add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_SLAB)
                 .add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_WALL)
                 .add(ModBlocks.DEPTHSTONE_LICHEN_LANTERN)
-                .add(ModBlocks.DEPTHSTONE_LANTERN);
+                .add(ModBlocks.DEPTHSTONE_LANTERN)
+                .add(ModBlocks.ORE_CLUSTER);
 
         getOrCreateTagBuilder(BlockTags.WALLS)
                 .add(ModBlocks.DEPTHSTONE_BRICK_WALL)
                 .add(ModBlocks.LICHEN_DEPTHSTONE_BRICK_WALL);
+
+        getOrCreateTagBuilder(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.ORE_CLUSTER);
 
     }
 }

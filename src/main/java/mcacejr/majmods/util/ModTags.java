@@ -24,6 +24,16 @@ public class ModTags {
 
     public static class Items {
 
+        public static final TagKey<Item> LEGENDARY_MATERIALS =
+                createTag("legendary_materials");
+        public static final TagKey<Item> LEGENDARY_TOOLS =
+                createTag("legendary_tools");
+
+        public static final TagKey<Item> STONE_ORES =
+                createTag("stone_ores");
+        public static final TagKey<Item> DEEPSLATE_ORES =
+                createTag("deepslate_ores");
+
         private static TagKey<Item> createTag(String name) {
 
             return TagKey.of(RegistryKeys.ITEM, new Identifier(McAceJrMods.MOD_ID, name));
