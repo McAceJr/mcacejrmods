@@ -355,7 +355,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .criterion(hasItem(ModItems.MONSTROUS_TOTEM), conditionsFromItem(ModItems.MONSTROUS_TOTEM))
                 .offerTo(exporter, getItemPath(ModItems.LIVING_MOB_SWORD) + "_smithing");
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEGENDARY_REPAIR_SMITHING_TEMPLATE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEGENDARY_REPAIR_SMITHING_TEMPLATE, 2)
                 .pattern("DSD")
                 .pattern("DOD")
                 .pattern("DDD")
@@ -366,7 +366,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                         conditionsFromItem(ModItems.LEGENDARY_REPAIR_SMITHING_TEMPLATE))
                 .offerTo(exporter);
 
-        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEGENDARY_UPGRADE_SMITHING_TEMPLATE)
+        ShapedRecipeJsonBuilder.create(RecipeCategory.MISC, ModItems.LEGENDARY_UPGRADE_SMITHING_TEMPLATE, 2)
                 .pattern("DSD")
                 .pattern("DOD")
                 .pattern("DDD")
